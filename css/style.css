@@ -1,0 +1,112 @@
+:root {
+    --primario: #76c5fa;
+    --secundario: #4587a1;
+    --blanco: #fff;
+    --negro: #000;
+
+    --fuentePrincipal:'PT Serif', serif;
+}
+/*
+{
+    box-sizing : border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+*/
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /*Para que un rem sea igual a 10px*/
+}
+
+/*Globales*/
+
+body{
+    background-color: var(--primario);
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+p{
+  font-size: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--secundario);
+}
+a {
+  text-decoration: none;
+}
+
+.contenedor{
+ 
+  margin: 0 auto;
+}
+
+h1,h2,h3 {
+  text-align: center;
+  color: var(--secundario);
+  font-family: var(--fuentePrincipal);
+}
+
+.collapse,.navbar-nav{
+  font-family: var(--fuentePrincipal);
+  gap: 2rem;
+}
+
+/*Header se utilizo Boostrap*/
+
+/*Footer*/
+
+.footer {
+  background-color: var(--secundario);
+  padding: 1rem 0;
+  margin-top: 2rem;
+
+}
+
+.footer__texto{
+  font-family: var(--fuentePrincipal);
+  text-align: center;
+  color: var(--blanco);
+  font-size: 0.8rem;
+}
+
+/*Grid*/
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15rem;
+}
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(3,1fr);
+    padding: 1rem;
+  }
+}
+
+main{
+  background-color:rgb(194, 222, 247);
+}
+/*Prestaciones*/
+.prestacion{
+  background-color: var(--blanco);
+  padding: 1rem;
+
+}
+.prestacion__imagen{
+  width: 100%;
+}
+.prestacion__informacion{
+
+}
+
+.prestacion__nombre{
+  font-size: 2rem;
+  font-family: var(--fuentePrincipal);
+  margin: 1rem 0;
+  text-align: center;
+  line-height: 1.2;
+}
+
+
