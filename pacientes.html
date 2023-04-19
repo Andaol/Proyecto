@@ -11,7 +11,29 @@
     <link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap/css/bootstrap.main.css" rel="stylesheet">
     <link href="css/bootstrap/bootstrap.bundle.min.js" rel="stylesheet">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+      function ValidarDatos(){
+            var apellidoynombre=$("#apynom").val(); 
+            console.log("Apellido y Nombre ",apellidoynombre);
+            if (apellidoynombre == "")
+             {
+                $("#Mensaje1").text("Complete su apellido y nombre");
+            }
+            var domicilio=$("#correo").val();
+            console.log("Correo ",domicilio);
+            if (domicilio == "")
+            {
+              $("#Mensaje2").text("Complete su correo");
+            }
+            var Telefono=$("#Telefono").val(); 
+            console.log("Telefono ",Telefono);
+            if (Telefono == "") 
+             {
+                $("#Mensaje3").text("Complete su teléfono");
+            }
+          }
+    </script>
 </head>
 
 <body>
@@ -43,3 +65,30 @@
       </div>
     </div>
   </nav>
+
+  <h2>Si desea contactarse con nosotros, ingrese sus datos personales</h2>
+		<label for="apynom">Apellido y Nombres</label>
+        <input type="text" id="apynom">
+		<br>
+        <label class="advertencia" id="Mensaje1"></label>
+    <br>
+		<label for="correo">Correo Electrónico</label>
+        <input type="text" id="correo">
+		<br>
+        <label class="advertencia" id="Mensaje2"></label>
+        <br>
+    <label for="Telefono">Teléfono</label>
+        <input type="number" id="Telefono">
+		<br>
+        <label class="advertencia" id="Mensaje3"></label>
+    <br>
+		<button onclick="ValidarDatos()">Enviar</button>  
+</body>
+
+<footer class="footer">
+  <p class="footer__texto"> Copyright ©2023 Clínica Lima - Diseñado por Grupo ISPC</p>
+</footer>
+<script src="css/bootstrap/js/popper.min.js"></script>
+<script src=" css/bootstrap/js/bootstrap.min.js"></script>
+
+</html>
