@@ -113,3 +113,24 @@ main{
   color: red;
 }
 
+.contenedorbotones{
+  background-color: var(--secundario);
+  padding: 20px;
+  display: flex;
+  margin: auto;
+  width: 50%;
+  height: 100px;
+  color: var(--negro);
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.nosotros, .historia, .infraestructura{
+  width: 40%;
+  height: 20px;
+  color: var(--negro);
+  text-align: center;
+  font-weight: bold;
+  line-height: 50px;
+}
