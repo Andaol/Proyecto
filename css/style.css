@@ -109,4 +109,6 @@ main{
   line-height: 1.2;
 }
 
-
+.advertencia{
+  color: red;
+}
