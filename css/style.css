@@ -113,6 +113,7 @@ main{
   color: red;
 }
 
+/*Para la seccion de institucion*/
 .contenedorbotones{
   background-color: var(--secundario);
   padding: 20px;
@@ -120,17 +121,49 @@ main{
   margin: auto;
   width: 50%;
   height: 100px;
-  color: var(--negro);
-  text-align: center;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  justify-content:space-around ;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
-.nosotros, .historia, .infraestructura{
-  width: 40%;
-  height: 20px;
-  color: var(--negro);
+.caja{
+  background-color: var(--primario);
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
   text-align: center;
-  font-weight: bold;
   line-height: 50px;
+}
+
+.nosotros{
+  background-color: rgb(180, 232, 234);
+  padding: 20px;
+/*   display: flex; */
+  flex-direction: row;
+  margin: 0 auto;
+  width: 98%;
+  height: 350px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center; 
+  text-align: center; 
+  font-family: var(--fuentePrincipal);
+}
+
+.partes{
+   color: solid black; 
+   text-align: left;
+   margin-left: 100px;
+   font-family: var(--fuentePrincipal);
+}
+
+.dato
+{
+    background-color: beige;
+    height: auto;
+    width: auto;
+    padding: 1px;
+    margin-bottom: 1px;
+    margin-left: 100px;
+    font-family: var(--fuentePrincipal);
 }
