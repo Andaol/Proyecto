@@ -135,7 +135,7 @@ main{
   line-height: 50px;
 }
 
-.nosotros{
+.nosotros, .historia, .infraestructura{
   background-color: rgb(180, 232, 234);
   padding: 20px;
 /*   display: flex; */
@@ -148,6 +148,8 @@ main{
   align-items: center; 
   text-align: center; 
   font-family: var(--fuentePrincipal);
+  margin-block-end: 20px;
+  margin-block-start: 20px;
 }
 
 .partes{
