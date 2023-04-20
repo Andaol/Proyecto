@@ -233,7 +233,16 @@ ul{font-size: 1.8rem;
     width: 150px;
     height: 150px;
     margin: 5px;
-    border: 1px;}
+    border: 1px;
+}
+.pedirTurnos{
+  background-color: rgb(180, 232, 234);
+    padding: 25px;
+    margin: 3px;
+    border-style: inset;
+    overflow: hidden; 
+
+}
     
 /* PACIENTES */
 .contacto, .informacion{
