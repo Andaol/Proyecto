@@ -109,87 +109,96 @@ main{
   line-height: 1.2;
 }
 
+/*FORMULARIO CONTACTO*/
 .advertencia{
   color: red;
 }
 
-/*Para la seccion de institucion*/
+/*INSTITUCION*/
 .contenedorbotones{
-  background-color: var(--secundario);
-  padding: 20px;
-  display: flex;
-  margin: auto;
-  width: 50%;
-  height: 100px;
-  justify-content:space-around ;
-  flex-wrap: wrap;
-  align-items: center;
+background-color: var(--secundario);
+padding: 20px;
+display: flex;
+margin: auto;
+width: 50%;
+height: 100px;
+justify-content:space-around ;
+flex-wrap: wrap;
+align-items: center;
 }
 
 .caja{
-  background-color: var(--primario);
-  border-radius: 5px;
-  width: 100px;
-  height: 50px;
-  text-align: center;
-  line-height: 50px;
+background-color: var(--primario);
+border-radius: 5px;
+width: 100px;
+height: 50px;
+text-align: center;
+line-height: 50px;
 }
 
 .nosotros, .historia, .infraestructura{
-  background-color: rgb(180, 232, 234);
-  padding: 20px;
+background-color: rgb(180, 232, 234);
+padding: 20px;
 /*   display: flex; */
-  flex-direction: row;
-  margin: 0 auto;
-  width: 98%;
-  height: auto;
-  justify-content:space-around;
-  /* flex-wrap: wrap;*/
-  align-items: left;  
-  text-align: center; 
-  font-family: var(--fuentePrincipal);
-  margin-block-end: 20px;
-  margin-block-start: 20px;
+flex-direction: row;
+margin: 0 auto;
+width: 98%;
+height: auto;
+justify-content:space-around;
+/* flex-wrap: wrap;*/
+align-items: left;  
+text-align: center; 
+color: var(--secundario);
+font-family: var(--fuentePrincipal);
+margin-block-end: 20px;
+margin-block-start: 20px;
 }
 
 .partes{
-   color: solid black; 
-   text-align: left;
-   margin-left: 100px;
-   font-family: var(--fuentePrincipal);
-   vertical-align: middle;
+ color: solid black; 
+ text-align: left;
+ margin-left: 100px;
+ font-family: var(--fuentePrincipal);
+ vertical-align: middle;
 }
 
 .dato
 {
-    background-color: beige;
-    height: auto;
-    width: auto;
-    padding: 1px;
-    margin-bottom: 1px;
-    margin-left: 100px;
-    font-family: var(--fuentePrincipal);
+  background-color: beige;
+  height: auto;
+  width: auto;
+  padding: 1px;
+  margin-bottom: 1px;
+  margin-left: 100px;
+  font-family: var(--fuentePrincipal);
 }
 
 .union{
-  width: 100%;
-  display: flex;
-  align-items: center;
-  margin-block-start: 30px;
+width: 100%;
+display: flex;
+align-items: center;
+margin-block-start: 30px;
 }
 
 .descripcionfundador{
-  background-color: beige;
-  flex: 1;
-  padding: 5px;
-  height: auto;
-  width: auto;
+background-color: beige;
+flex: 1;
+padding: 5px;
+height: auto;
+width: auto;
 }
 
 .imagenfundador, .grupoimagenes{
-  flex: 1;
-  padding: 20px;
+flex: 1;
+padding: 20px;
 }
+
+ul{font-size: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--secundario);
+}
+
+
 /*ESPECIALIDADES*/
  .cont{
     display:contents;
