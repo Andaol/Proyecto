@@ -234,3 +234,20 @@ ul{font-size: 1.8rem;
     height: 150px;
     margin: 5px;
     border: 1px;
+    
+/* PACIENTES */
+.contacto, .informacion{
+  background-color: rgb(180, 232, 234);
+  padding: 20px;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 90%;
+  height: auto;
+  justify-content:space-around;
+  align-items: left;  
+  text-align: center; 
+  color: var(--secundario);
+  font-family: var(--fuentePrincipal);
+  margin-block-end: 20px;
+  margin-block-start: 20px;
+}
