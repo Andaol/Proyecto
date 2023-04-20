@@ -142,10 +142,10 @@ main{
   flex-direction: row;
   margin: 0 auto;
   width: 98%;
-  height: 350px;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center; 
+  height: auto;
+  justify-content:space-around;
+  /* flex-wrap: wrap;*/
+  align-items: left;  
   text-align: center; 
   font-family: var(--fuentePrincipal);
   margin-block-end: 20px;
@@ -157,6 +157,7 @@ main{
    text-align: left;
    margin-left: 100px;
    font-family: var(--fuentePrincipal);
+   vertical-align: middle;
 }
 
 .dato
@@ -168,4 +169,24 @@ main{
     margin-bottom: 1px;
     margin-left: 100px;
     font-family: var(--fuentePrincipal);
+}
+
+.union{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-block-start: 30px;
+}
+
+.descripcionfundador{
+  background-color: beige;
+  flex: 1;
+  padding: 5px;
+  height: auto;
+  width: auto;
+}
+
+.imagenfundador, .grupoimagenes{
+  flex: 1;
+  padding: 20px;
 }
