@@ -197,31 +197,32 @@ ul{font-size: 1.8rem;
 
 
 /*ESPECIALIDADES*/
- .cont{
+ .cont1esp{
     display:contents;
     justify-content: center; 
     
 
  }
-.cont1{
+.contesp{
     display: flex;
     justify-content: center;
-    background-color: rgb(87, 128, 114);
+    background-color:  #fff;
+    
     
 }
 .tit{
     display:flex;
     justify-content: center;
-    background-color: rgb(126, 226, 193);
+    background-color: #4587a1;
     padding: 25px;
     margin: 3px;
     border-style: inset;
     overflow: hidden; 
 
 }
-.caja{
+.cajaesp{
     
-    background-color: rgb(126, 226, 193);
+    background-color: rgb(180, 232, 234);
     padding: 25px;
     margin: 3px;
     border-style: inset;
@@ -233,4 +234,3 @@ ul{font-size: 1.8rem;
     height: 150px;
     margin: 5px;
     border: 1px;
-}
