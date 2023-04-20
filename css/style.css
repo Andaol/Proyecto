@@ -190,3 +190,41 @@ main{
   flex: 1;
   padding: 20px;
 }
+/*ESPECIALIDADES*/
+ .cont{
+    display:contents;
+    justify-content: center; 
+    
+
+ }
+.cont1{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(87, 128, 114);
+    
+}
+.tit{
+    display:flex;
+    justify-content: center;
+    background-color: rgb(126, 226, 193);
+    padding: 25px;
+    margin: 3px;
+    border-style: inset;
+    overflow: hidden; 
+
+}
+.caja{
+    
+    background-color: rgb(126, 226, 193);
+    padding: 25px;
+    margin: 3px;
+    border-style: inset;
+    overflow: hidden; 
+
+}
+.espImg{
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    border: 1px;
+}
