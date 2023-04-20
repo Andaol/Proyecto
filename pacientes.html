@@ -67,7 +67,22 @@
     </div>
   </nav>
 
-  <h2>Si desea contactarse con nosotros, ingrese sus datos personales</h2>
+  <div class="informacion">
+    <p>Gracias a "U.S. Food and Drug Administration" puede realizarse una consulta de la droga necesaria para cada tipo de patología. Es un servicio de consulta gratuito con la limitación de que debe consignarse la patología en ingles. Un ejemplo claro sería "hypertension"</p>
+    
+    <h1>Buscador de droga según la patologia</h1>
+    <form>
+    <label for="medicamento">Patología:</label>
+    <input type="text" id="medicamento" name="medicamento" required>
+    <button type="button" onclick="buscarMedicamento()">Buscar</button>
+    </form>
+    <div id="resultados"></div>
+    <script src="ajax.js"></script>
+    </div>
+  </div>
+    
+  <div class="contacto">  
+  <h2 style="text-align: left;">Si desea contactarse con nosotros, ingrese sus datos personales</h2>
 		<label for="apynom">Apellido y Nombres</label>
         <input type="text" id="apynom">
 		<br>
@@ -84,27 +99,8 @@
         <label class="advertencia" id="Mensaje3"></label>
     <br>
 		<button onclick="ValidarDatos()">Enviar</button>  
+  </div>  
 
-    <section>
-      <form class="formulario">
-        <label for="apynom">Obra Social</label>
-              <input class="input_text"type="text" id="apynom">
-          <br>
-              <label class="advertencia" id="Mensaje1"></label>
-          <br>
-          <label for="correo">Especialista</label>
-              <input class="input_text" type="text" id="correo">
-          <br>
-              <label class="advertencia" id="Mensaje2"></label>
-              <br>
-          <label for="Telefono">Seleccione fecha</label>
-              <input class="input_text" type="number" id="Telefono">
-          <br>
-              <label class="advertencia" id="Mensaje3"></label>
-          <br>
-          <button onclick="ValidarDatos()">Solicitar</button> 
-      </form>
-    </section>
 </body>
 
 <footer class="footer">
